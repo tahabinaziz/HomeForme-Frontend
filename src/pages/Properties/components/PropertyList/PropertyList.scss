@@ -1,0 +1,19 @@
+.properties-list {
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+  height: calc(85vh - 120px);
+  overflow-y: scroll;
+
+  .load-more-button {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .properties-list {
+    margin: 1rem 0 !important;
+  }
+}
